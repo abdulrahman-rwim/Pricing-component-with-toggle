@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <title>Pricing Card Page</title>
+    <script
+      defer
+      src="https://kit.fontawesome.com/1e54f89a92.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="/script.js"></script>
+  </head>
+
+  <body>
+    <main class="container">
+      <header class="header">
+        <span class="heading">your current plan: </span>
+        <br />
+        <h1>starter trial <span>500MAUs</span></h1>
+      </header>
+      <section class="toggle-switch-wrapper">
+        <h2 class="toggle-switch__title">choose a plan</h2>
+        <span class="toggle-switch__label">billed monthly</span>
+        <span class="toggle-switch"> </span
+        ><span class="toggle-switch__label">billed anually</span>
+      </section>
+      <div class="pricing-cards-wrapper">
+        <div class="pricing-card">
+          <span class="pricing-card__title">starter</span>
+          <h3 class="pricing-card__price">$19</h3>
+          <ul class="pricing-card__features">
+            <li class="pricing-card__feature">500MAUs</li>
+            <li class="pricing-card__feature">3 projects</li>
+            <li class="pricing-card__feature">unlimited guides</li>
+            <li class="pricing-card__feature">unlimited flows</li>
+            <li class="pricing-card__feature">unlimited branded themes</li>
+            <li class="pricing-card__feature">email support</li>
+          </ul>
+          <button class="btn btn-starter">Choose Plan</button>
+        </div>
+        <div class="pricing-card">
+          <span class="pricing-card__title">Pro</span>
+          <h3 class="pricing-card__price pricing-card__price--pro">$99</h3>
+          <span class="monthly">/month</span>
+
+          <div class="custom-select">
+            <select>
+              <option value="">2500 MAUs</option>
+            </select>
+            <span class="custom-arrow"
+              ><i class="fas fa-angle-down fa-2x"></i
+            ></span>
+          </div>
+          <span class="monthly-active">Monthly active users</span>
+          <ul class="pricing-card__features">
+            <li class="pricing-card__feature">All starter features, plus:</li>
+            <li class="pricing-card__feature">unlimited projects</li>
+            <li class="pricing-card__feature">
+              unlimited fully customizable themes
+            </li>
+            <li class="pricing-card__feature">
+              A dedicated Customer Success Manger
+            </li>
+          </ul>
+          <button class="btn btn--main">Choose Plan</button>
+        </div>
+        <div class="pricing-card">
+          <span class="pricing-card__title">Enter Price</span>
+          <h3 class="pricing-card__price--custom">Let's Talk!</h3>
+          <ul class="pricing-card__features">
+            <li class="pricing-card__feature">all pro features</li>
+            <li class="pricing-card__feature">3 projects</li>
+            <li class="pricing-card__feature">unlimited MAUs</li>
+            <li class="pricing-card__feature">dedicated enviroment</li>
+            <li class="pricing-card__feature">
+              Enterprice account administration
+            </li>
+            <li class="pricing-card__feature">premium support and services</li>
+          </ul>
+          <button class="btn btn--enter-price">contact us</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
